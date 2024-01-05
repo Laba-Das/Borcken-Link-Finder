@@ -1,0 +1,84 @@
+/* Apply general styles to the plugin */
+#blf-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Apply styles to the form elements */
+form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Apply styles to the download button */
+a.download-btn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a.download-btn:hover {
+  background-color: #3e8e41;
+}
+
+#heading {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
